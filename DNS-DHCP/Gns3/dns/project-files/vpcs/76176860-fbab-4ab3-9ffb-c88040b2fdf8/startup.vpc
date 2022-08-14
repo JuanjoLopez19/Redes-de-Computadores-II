@@ -1,0 +1,4 @@
+set pcname PC1
+ip 20.3.0.20 20.3.0.1 16
+ip domain redes.usal.es
+ip dns 20.3.0.10

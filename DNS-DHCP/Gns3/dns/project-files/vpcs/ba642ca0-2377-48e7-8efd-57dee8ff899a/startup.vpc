@@ -1,0 +1,4 @@
+set pcname portal
+ip 20.1.0.20 20.1.0.1 16
+ip domain usal.es
+ip dns 20.1.0.10

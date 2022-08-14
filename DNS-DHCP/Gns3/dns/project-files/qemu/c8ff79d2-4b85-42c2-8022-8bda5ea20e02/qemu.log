@@ -1,0 +1,4 @@
+Start QEMU with /usr/bin/qemu-system-x86_64 -name dnscom -m 256M -smp cpus=1 -enable-kvm -machine smm=off -boot order=c -drive file=/home/i0961594/Descargas/dns/project-files/qemu/c8ff79d2-4b85-42c2-8022-8bda5ea20e02/hda_disk.qcow2,if=ide,index=0,media=disk -uuid c8ff79d2-4b85-42c2-8022-8bda5ea20e02 -serial telnet:127.0.0.1:5007,server,nowait -monitor tcp:127.0.0.1:46829,server,nowait -net none -device e1000,mac=0c:77:5d:0e:02:00,netdev=gns3-0 -netdev socket,id=gns3-0,udp=127.0.0.1:10121,localaddr=127.0.0.1:10120 -nographic
+
+Execution log:
+qemu-system-x86_64: terminating on signal 15 from pid 2523 (/usr/share/gns3/gns3-server/bin/python)

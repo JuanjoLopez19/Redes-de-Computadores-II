@@ -1,0 +1,4 @@
+set pcname www2
+ip 30.1.0.20 30.1.0.1 16
+ip domain cisco.com
+ip dns 30.1.0.1
